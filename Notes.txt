@@ -1,0 +1,46 @@
+para instalar la version mas reciente de pip buscar en el navegador pip get
+y buscas el enlace que te traiga un texto plano y lo guardas para luego ejecutar 
+el siguiente comando:
+
+pyhton get-pip.py
+
+Por otro lado para instalar el entorno virtual virtualenv para encapsular nuestro proyecto se usa el siguiente comando:
+
+python -m pip install virtualenv
+
+Ahora para abrir el entorno virtual se ejecuta el siguiente comando:
+
+python -m virtualenv *nombre_del_entorno*
+
+Para activar el entorno virtual te vas a alojar en el siguiente comando en tu terminal:
+
+-Para windows: *nombre_del_entorno*\Scripts\activate.bat
+-Para Unix: source *nombre_del_entorno*/bin/activate
+
+Librerias 
+
+Una libreria importante para ScikitLearn es numpy ya que nos permite hacer operaciones sobre tensores
+
+Para intalar numpy se utiliza el siguiente comando:
+
+python -m pip install numpy
+
+Instalacion de scipy:
+
+python -m pip install scipy
+
+Instalacion de joblib:
+
+python -m pip install joblib
+
+Instalacion de pandas:
+
+python -m pip install pandas
+
+Instalacion de matplotlib:
+
+python -m pip install matplotlib
+
+Instalacion de scikit-learn:
+
+python -m pip install scikit-learn
